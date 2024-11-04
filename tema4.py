@@ -15,6 +15,7 @@ print(f"Incercari ramase: {incercari_ramase}")
 
 #Rationament
 while "_" in progres and incercari_ramase > 0:
+    #introducere litera
     litera = input("Introdu o litera: ").lower()
 
     if len(litera) != 1 or not litera.isalpha():
